@@ -55,8 +55,8 @@ p {
     height: 500px;
     width: 33%;
     margin-bottom: 25px;
-    background-image: url("./Assets/Images/face.jpg");
-    background-size: 350px 600px;
+    background-image: url("./assets/images/face.jpg");
+    background-size: contain;
     float: left;
     background-repeat: no-repeat;
 }
@@ -65,7 +65,7 @@ p {
     height: 500px;
     width: 33%;
     margin-bottom: 25px;
-    background-image: url("./Assets/Images/albert.jpg");
+    background-image: url("./assets/images/albert.jpg");
     background-size: 350px 600px;
     background-repeat: no-repeat;
     float: left;
