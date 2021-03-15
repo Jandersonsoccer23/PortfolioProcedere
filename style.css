@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #4b3535;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e48233;
+    color: #812a2a;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header h1 .elteche {
+    color: #318eb3;
+}
+
+
+.navlinks {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navlinks ul {
+    list-style-type: none;
+}
+
+.navlinks ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.myface {
+    height: 500px;
+    width: 33%;
+    margin-bottom: 25px;
+    background-image: url("./Assets/Images/myface.jpg");
+    background-size: contain;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.albert {
+    height: 500px;
+    width: 33%;
+    margin-bottom: 25px;
+    background-image: url("./Assets/Images/albert.jpg");
+    background-size: 350px 600px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+.image-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+.image-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.previousworks {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.MockUp {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 40%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #092c3f62;
+}
+
+
+.MinMin {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.MinMin h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.MinMin img {
+    display: block;
+    margin: 10px auto;
+    max-width:350px;
+}
+
+
+.currentwork {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 535px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #092c3f62;
+    color: #ffffff;
+}
+
+.currentwork img {
+    max-height: 200px;
+}
+
+.currentwork h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
